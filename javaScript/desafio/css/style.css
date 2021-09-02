@@ -1,5 +1,5 @@
 body{
-    background-color:#1E90FF;
+    background-color:#428bca;
     font: normal 15pt Arial;
 }
 
@@ -31,4 +31,33 @@ img{
     width: 200px;
     height: 200px; 
     border-radius: 100px;
+}
+
+#btn{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #fff;
+    font-family: inherit;
+    font-weight: bold;
+    
+}
+
+#txtano{
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: #357ebd;
 }
