@@ -23,3 +23,13 @@
 - Registrar o Model no admin.py
 - Executar o makemigration para criar o model do departamento "python manage.py makemigration
 - Criar tabela no banco "python manage.py migrate"
+- Criar o app documentos "python manage.py startapp documentos"
+- Criar tabela no models.py
+- Registrar o Model no admin.py
+- Executar o makemigration para criar o model do documentos "python manage.py makemigration
+- Criar tabela no banco "python manage.py migrate"
+- Criar o app registro_hora_extra "python manage.py startapp registro_hora_extra"
+- Criar tabela no models.py
+- Registrar o Model no admin.py
+- Executar o makemigration para criar o model do registro_hora_extra "python manage.py makemigration
+- Criar tabela no banco "python manage.py migrate"
