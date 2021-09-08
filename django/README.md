@@ -49,3 +49,8 @@
 - Carregar Boostrap no template base.html
 - Envolver nosso block main em uma div container
 - Adicionar no arquivo urls.py url para realizar login
+- Criar Arquivo login.html na pasta templates/registration
+- Definir no settings.py onde iremos mandar quando fizer o login utilizando LOGIN_REDIRECT_URL
+- Criar a url home no arquivo apps/core/urls.py
+- Forçar no index.html do core que o usuário esteja logado
+- Configurar no settings.py onde queremos mandar o usuário após logout LOGOUT_REDIDERCT_URL
