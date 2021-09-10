@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block container %}
+<div style="width: 500px; margin: auto;">
+<table class="table table-dark table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Sobrenome</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for contato in contatos %}
+                <tr>
+                    <th scope="row">{{contato.id}}</th>
+                    <td>
+                    <a href="{% url 'ver_contato' contato.id %}">{{contato.nome}}</a>
+                    </td>
+                    <td >{{contato.sobrenome}}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+    </div>
+{% endblock container %}
+
