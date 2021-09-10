@@ -11,3 +11,7 @@ class ContatoModel(models.Model):
     data_criacao = models.DateField(default=timezone.now)
     descricao = models.TextField(blank=True)
     categoria = models.ForeignKey(to=CategoriaModel, on_delete=models.DO_NOTHING)
+
+
+    def __str__(self) -> str:
+        return self.nome
